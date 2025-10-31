@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pratibha Uniyal - Links</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #0f3460;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3rem 2rem;
+    min-height: 100vh;
+  }
+  h1 {
+    margin-bottom: 2rem;
+    color: #e94560;
+  }
+  .links-container {
+    background: #16213e;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 20px rgba(233,69,96,0.6);
+    width: 300px;
+    text-align: center;
+  }
+  a {
+    display: block;
+    background: #e94560;
+    margin: 1rem 0;
+    padding: 12px 0;
+    border-radius: 25px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  a:hover {
+    background: #f76b1c;
+  }
+  button {
+    margin-top: 2rem;
+    background: #e94560;
+    border: none;
+    color: white;
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    font-weight: 600;
+    box-shadow: 0 4px 12px rgba(233,69,96,0.8);
+    transition: background-color 0.3s ease;
+  }
+  button:hover {
+    background: #f76b1c;
+  }
+</style>
+</head>
+<body>
+  <h1>My Social & Coding Links</h1>
+  <div class="links-container">
+    <a href="https://github.com/Pratibha26515" target="_blank" rel="noopener">GitHub</a>
+    <a href="https://www.linkedin.com/in/pratibha-uniyal-63685124b/" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="https://leetcode.com/pratibhagehu" target="_blank" rel="noopener">LeetCode</a>
+  </div>
+  <button onclick="goBack()">← Back to Home</button>
+
+<script>
+  function goBack() {
+    window.location.href = 'index.html';
+  }
+</script>
+</body>
+</html>

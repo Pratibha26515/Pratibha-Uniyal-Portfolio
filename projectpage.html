@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pratibha Uniyal - Projects</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+  body {
+    background: #1a1a2e;
+    color: #eaeaea;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 2rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #f76b1c;
+  }
+  .project {
+    background: #16213e;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    padding: 1.5rem;
+    box-shadow: 0 4px 10px rgba(247,107,28,0.5);
+  }
+  .project h2 {
+    margin-top: 0;
+    color: #f5a623;
+  }
+  ul {
+    list-style-type: disc;
+    padding-left: 1.3rem;
+  }
+  nav {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  nav button {
+    background: #f5a623;
+    border: none;
+    border-radius: 20px;
+    padding: 0.7rem 1.5rem;
+    color: #16213e;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 3px 8px rgba(245,166,35,0.6);
+    transition: background-color 0.3s ease;
+  }
+  nav button:hover {
+    background: #f76b1c;
+    color: white;
+  }
+</style>
+</head>
+<body>
+
+  <nav>
+    <button onclick="goBack()">← Back to Home</button>
+  </nav>
+
+  <h1>My Projects</h1>
+
+  <div class="project">
+    <h2>FastFileDB: B+ Tree-Based Mini Database</h2>
+    <ul>
+      <li>Efficient search, insertion, and deletion using B+ Tree (C++, HTML, CSS)</li>
+      <li>Simulated disk block access mimicking real-world database behavior</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h2>Multiple Disease Prediction</h2>
+    <ul>
+      <li>Built a Streamlit web app using Naive Bayes to predict diabetes, heart disease, and Parkinson’s disease</li>
+      <li>Accuracy: 76.6% (diabetes), 85% (heart disease), 88% (Parkinson’s)</li>
+      <li>Focused on early disease risk detection</li>
+    </ul>
+  </div>
+
+  <div class="project">
+    <h2>Credit Card Fraud Detection</h2>
+    <ul>
+      <li>Developed fraud detection pipeline with machine learning and data visualization</li>
+      <li>Handled imbalanced data and compared multiple classifiers</li>
+      <li>Achieved up to 99.96% accuracy</li>
+    </ul>
+  </div>
+
+<script>
+  function goBack() {
+    window.location.href = 'index.html';
+  }
+</script>
+</body>
+</html>

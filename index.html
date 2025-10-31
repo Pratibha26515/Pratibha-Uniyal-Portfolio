@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Pratibha Uniyal - Home</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+  body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #f5235b, #91f71c);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+  h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+  }
+  p {
+    font-weight: 300;
+    font-size: 1.4rem;
+    margin: 1rem 0 2rem 0;
+    max-width: 600px;
+  }
+  .btn-container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+  }
+  button {
+    background: white;
+    color: #f76b1c;
+    border: none;
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  button:hover {
+    background: blue;
+    color: white;
+  }
+  img.profile-pic {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid white;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  }
+</style>
+</head>
+<body>
+  <!-- Add your image here; replace 'your-image.jpg' with your actual image file path or URL -->
+  <img src="img2.jpg" alt="Pratibha Uniyal" class="profile-pic" />
+
+  <h1>Pratibha Uniyal</h1>
+  <p>Hi! I'm Pratibha, a passionate BTech CSE student from Dehradun with experience in database systems, machine learning, and web technologies. Welcome to my portfolio!</p>
+
+  <div class="btn-container">
+    <button onclick="goToPage('projectpage.html')">View Projects</button>
+    <button onclick="goToPage('linkspage.html')">My Links</button>
+  </div>
+
+  <script>
+    function goToPage(page) {
+      window.location.href = page;
+    }
+  </script>
+</body>
+</html>
